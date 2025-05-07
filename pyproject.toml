@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hakustore"
+version = "0.1.0"
+description = "Persistent storage built upon one file database systems."
+readme = "README.md"
+requires-python = ">=3.10"
+license-files = ["LICENSE"]
+authors = [
+    {name = "Shih-Ying Yeh(KohakuBlueLeaf)", email = "apolloyeh0123@gmail.com"},
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/KohakuBlueleaf/HakuStore"
+Repository = "https://github.com/KohakuBlueleaf/HakuStore"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
